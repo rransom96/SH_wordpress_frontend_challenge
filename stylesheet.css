@@ -1,0 +1,291 @@
+body {
+	margin: 0;
+}
+
+.nav-bar {
+	background-color: #dedede;
+	width: 100%;
+	min-height: 100px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo {
+	font-family: 'Pacifico', cursive;
+	width: 25%;
+	float: left;
+	height: 100px;
+}
+
+.logo-img {
+	height: 90px;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+}
+
+.logo-text {
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+    font-size: 25px;
+}
+
+.menu {
+	font-family: 'Cuprum', sans-serif;
+	float: left;
+	position: relative;
+	display: block;
+	width: 300px;
+}
+
+.nav-menu {
+	position: relative;
+    margin: 0 !important;
+    left: -40px;
+}
+
+.menu-item {
+	list-style: none;
+	display: inline-block;
+	color: #aaaaaa;
+	float: left;
+	position: relative;
+	padding-top: 25px;
+    padding-bottom: 17px;
+}
+
+.menu-item-text {
+	height: 100%;
+	position: relative;
+	display: inline-block;
+	padding: 20px 15px;
+}
+
+.dropdown-menu {
+	background-color: #ffffff;
+	float: left;
+	display: inline-block;
+}
+
+.dest-menu {
+	padding: 0 !important;
+}
+
+.dest {
+	text-align: left;
+	list-style: none;
+	padding: 10px 40px 10px 15px;
+    color: #aaaaaa;
+    font-size: 15px;
+}
+
+.menu1 {
+	margin-left: -105px;
+    margin-top: 85px;
+    z-index: 15;
+    position: absolute;
+    left: 105px;
+}
+
+.menu2 {
+	margin-left: -125px;
+    margin-top: 85px;
+    z-index: 15;
+    position: absolute;
+}
+
+.about-menu {
+	padding: 0 !important;
+}
+
+.about {
+	text-align: left;
+	list-style: none;
+	padding: 10px 10px 10px 15px;
+    color: #aaaaaa;
+    font-size: 15px;
+}
+
+.top-border {
+	border-top: 1px solid #ececec;
+}
+
+.search-area {
+	float: right;
+	width: 30%;
+	height: 100px;
+}
+
+.search-box {
+	position: relative;
+    top: 50%;
+    transform: translateY(-35%);
+    height: 25%;
+    width: 50%;
+}
+
+.search-icon {
+	position: relative;
+    top: 38%;
+    height: 32%;
+    width: 9%;
+    float: right;
+    left: -130px;
+    background-color: #ffffff
+}
+
+.icon {
+	float: left;
+    padding: 7px 7px;
+}
+
+.header-section {
+	position: relative;
+}
+
+.words {
+	position: absolute;
+	font-size: 30px;
+	width: 100%;
+	margin-top: 3%;
+	z-index: 10;
+}
+
+.header {
+	z-index: 5;
+	font-family: 'Pacifico', cursive;
+	margin: 0 auto;
+	width: 40%;
+	text-align: center;
+}
+
+.subheader {
+	z-index: 5;
+	font-family: 'Cuprum', sans-serif;
+	margin: 0 auto;
+	width: 40%;
+	text-align: center;
+	margin-top: 1%; 
+}
+
+.contents {
+    background:white;
+    max-height: 440px;
+    overflow: hidden;
+}
+
+.contents img {
+	max-height: initial;
+}
+
+.gradient {
+    position:absolute;
+    z-index:2;
+    right:0; bottom:0; left:0;
+    height: 200px;
+    background: none;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 80%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(80%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+
+}
+
+.section-border {
+	width: 100%;
+	height: 60px;
+}
+
+.section-divider {
+	width: 87%;
+	border: 1px solid #dc5046;
+	top: 50%;
+	transform: translateY(1000%);
+}
+
+.section-title {
+	float: right;
+}
+
+.section-title span {
+	text-align: center;
+	font-size: 28px;
+	color: #dc5046;
+	font-family: 'Pacifico', cursive;
+}
+
+.location-container {
+	width: 100%;
+}
+
+.location-box {
+	width: 19%;
+	text-align: center;
+	float: left;
+}
+
+.img-wrapper {
+	width: 100%;
+/*	padding-top: 50%;
+	padding-bottom: 50%;*/
+	object-fit: cover;
+	margin-bottom: 15px;
+	max-height: 50%
+}
+
+.location-img {
+	position: relative !important;
+	width: 228.354px !important;
+	height: 150.812px !important;
+}
+
+.location-title {
+	width: 100%;
+	font-size: 28px;
+	font-family: 'Pacifico', cursive;
+	height: 30px;
+	color: #6e3f9d;
+}
+
+.location-paragraph {
+	width: 100%;
+	text-align: initial;
+	height: 150.812px;
+}
+
+.featured {
+	/*display: none;*/
+}
+
+.africa {
+	display: none;
+}
+
+.americas {
+	display: none;
+}
+
+.oceania {
+	display: none;
+}
+
+.europe {
+	display: none;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
